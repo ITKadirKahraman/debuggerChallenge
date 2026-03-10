@@ -1,9 +1,8 @@
 let age = "18";
-setLetterTwo()
 
 function init(){
-    
-    setLetterThree('B');
+    setLetterTwo();
+    setLetterThree();
     setLetterFour();
     setLetterFive();
     setLetterSix();
@@ -20,26 +19,26 @@ function setLetterTwo(){
 }
 
 function setLetterThree(){
-    setLetter('third_letter',param);
+    setLetter('third_letter','B');
 }
 
 function setLetterFour(){
 
-    if(calculateSum(1, 3) == 4){
+    if(calculateSum(1, 2) == 4){
         setLetter('four_letter','U');
     }
 }
 
 function setLetterFive(){
 
-    if(age === 18){
+    if(age == 18){
         setLetter('five_letter','G');
     }
 }
 
 function setLetterSix(){
 
-    if(buildHelloWorld() == "hello world"){
+    if(buildHelloWorld() == "heLlo world"){
         setLetter('six_letter','G');
     }
 }
@@ -47,7 +46,7 @@ function setLetterSix(){
 function setLetterSeven(){
 
     if(getNumber() >= 20){
-        setLetter('six_letter','E');
+        setLetter('seven_letter','E');
     }
 }
 
@@ -63,7 +62,7 @@ function getNumber(){
     
     let step1 = parseInt(startValue) + additionValue;
     let step2 = step1 * "2";
-    let step3 = step2 / "x";
+    let step3 = step2 / x;
     
     return step3;
 }
